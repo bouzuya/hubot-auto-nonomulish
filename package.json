@@ -1,0 +1,40 @@
+{
+  "name": "hubot-auto-nonomulish",
+  "version": "0.0.0",
+  "description": "A Hubot script that respond automatically in nonomulished message",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register --slow 200 --reporter spec --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bouzuya/hubot-auto-nonomulish.git"
+  },
+  "keywords": [
+    "hubot",
+    "hubot-scripts"
+  ],
+  "author": {
+    "name": "bouzuya",
+    "mail": "m@bouzuya.net",
+    "url": "http://bouzuya.net"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bouzuya/hubot-auto-nonomulish/issues"
+  },
+  "homepage": "https://github.com/bouzuya/hubot-auto-nonomulish",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "coffee-script": "^1.7.1",
+    "kakashi": "0.3.1",
+    "mocha": "^1.20.1",
+    "sinon-chai": "^2.5.0",
+    "sinon": "^1.10.3"
+  },
+  "dependencies": {
+    "cheerio": "^0.17.0",
+    "q": "^1.0.1",
+    "request": "^2.39.0"
+  }
+}
