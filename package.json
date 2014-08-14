@@ -1,6 +1,6 @@
 {
   "name": "hubot-auto-nonomulish",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A Hubot script that respond automatically in nonomulished message",
   "main": "index.js",
   "scripts": {
